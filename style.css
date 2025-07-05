@@ -1,8 +1,10 @@
 /* Background image */
 body {
   background-image: url('web_background.jpg');
-  background-size: cover;       /* Makes image cover the entire background */
-  background-position: center;  /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat */
-  background-attachment: fixed; /* Makes the background stay fixed on scroll */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  height: 100vh;
 }
